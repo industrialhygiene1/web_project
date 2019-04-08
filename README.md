@@ -3,7 +3,7 @@ Web Visualization Dashboard (Latitude)
 
 
 
-#Credits:
+Credits:
 http://www.convertcsv.com/csv-to-html.htm; 
 https://getbootstrap.com/;
 https://openweathermap.org/api; and
