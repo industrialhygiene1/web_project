@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Comparisons</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+      <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <a class="navbar-brand bg-info ml-3 text-white text-center" style="width: 150px" href="index.html"
+            role="button">Lattitude Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavCollapse"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavCollapse">
+            <ul class="navbar-nav ml-auto navbar-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+                        <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="comparison.html">Comparison</a></li>
+                <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="comparison-container" class="container">
+        <section class="pt-5">
+            <h1 class="text-info text-left"><small>Latitude vs. Weather Factors Comparison</small></h1>
+            <p>
+                Click any plot to get in-depth analysis.
+            </p>
+            <div class="row">
+            <figure class="justify-content-center col-sm-6 col-md-6">
+                <figcaption class="figure-caption text-center text-info">vs. Max Temperature</figcaption>
+                <a href="temperature.html"><img class="img-fluid" src="images/MaxTem_vs_Lat.png"></a>
+            </figure>
+            <figure class="justify-content-center col-sm-6 col-md-6">
+                <figcaption class="figure-caption text-center text-info">vs. Humidity</figcaption>
+                <a href="humidity.html"><img class="img-fluid" src="images/Humidity_vs_Lat.png"></a>
+            </figure>
+            <figure class="justify-content-center col-sm-6 col-md-6">
+                <figcaption class="figure-caption text-center text-info">vs. Cloudiness</figcaption>
+                <a href="cloudiness.html"><img class="img-fluid" src="images/Clouds_vs_Lat.png"></a>
+            </figure>
+            <figure class="justify-content-center col-sm-6 col-md-6">
+                <figcaption class="figure-caption text-center text-info">vs. Wind Speed</figcaption>
+                <a href="windspeed.html"><img class="img-fluid" src="images/Winds_vs_Lat.png"></a>
+            </figure>
+            </div>
+        </section>
+    </section>
+    <div class="fixed-bottom">
+        
+    </section>
+    <div class="fixed-bottom">
+        <footer class="footer-copyright bg-success pt-1" style="height: 25px">
+                <p class="bg-secondary text-white text-center"><small>john@datasciencehealth.com, credit to: http://www.convertcsv.com/csv-to-html.htm; https://getbootstrap.com/; and https://openweathermap.org/api </small>
+                </p>
+        </footer>
+</body>
+
+</html>
